@@ -6,7 +6,7 @@ metadata:
   name: vote
   namespace: vote
 spec:
-  type: LoadBanlancer
+  type: LoadBalancer
   ports:
   - port: 80
   #5000
