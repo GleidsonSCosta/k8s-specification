@@ -16,11 +16,11 @@ spec:
         app: result
     spec:
       containers:
-        - name: result
-          image: kodekloud/examplevotingapp_result:v1
-          ports:
-            - containerPort: 80
-              name: result
+      - name: result
+        image: kodekloud/examplevotingapp_result:v1
+        ports:
+        - containerPort: 80
+          name: result
               
       
     
